@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function encodeAndShareLink() {
     const inputValue = document.getElementById('inputField').value;
     const encodedInput = encodeURIComponent(inputValue);
-    const shareLink = `https://your-website.com/?input=${encodedInput}`;
+    const shareLink = `https://thalaforareason-six.vercel.app/?input=${encodedInput}`;
   
     alert(`Share this link: ${shareLink}`);
   }
